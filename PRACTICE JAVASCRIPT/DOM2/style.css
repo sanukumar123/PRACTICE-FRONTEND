@@ -1,0 +1,19 @@
+body {
+  background-color: rgb(245, 245, 206);
+}
+
+#box {
+  height: 250px;
+  width: 200px;
+  color: white;
+  border: 1px solid black;
+  background-color: rgb(137, 137, 240);
+}
+
+#box2 {
+  height: 250px;
+  width: 200px;
+  color: black;
+  border: 1px solid black;
+  background-color: rgb(178, 9, 138);
+}

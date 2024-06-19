@@ -1,0 +1,13 @@
+.first {
+  color: red;
+  height: 200px;
+  width: 500px;
+  background-color: black;
+  border: 2px solid black;
+}
+
+.Second {
+  color: yellow;
+  background-color: brown;
+  font-weight: 100;
+}
