@@ -31,10 +31,14 @@ boxes.forEach((box) => {
     if(turn0) {
       //Player0 khelega
       box.innerText = "0";
+      box.style.backgroundColor = "orange";
+      box.style.color = "white";
       turn0 = false;
     }
     else {
       box.innerText = "X";
+      box.style.backgroundColor = "red";
+      box.style.color = "yellow";
       turn0 = true;
     }
     box.disabled = true;
@@ -65,6 +69,8 @@ const enableBoxes = () => {
   for(let box of boxes) {
     box.disabled = false;
     box.innerText = "";
+    box.style.backgroundColor = "#017b60d8";
+    box.style.color = "white";
   }
 };
 
